@@ -1,0 +1,224 @@
+/* Anchor for popover positioning */
+#element-gifs-button {
+  anchor-name: --gif-button;
+}
+
+/* Position the popover using CSS anchor positioning */
+#element-gifs-popover {
+  position: fixed;
+  position-anchor: --gif-button;
+  inset: unset;
+  bottom: anchor(top);
+  right: anchor(right);
+  margin-bottom: 8px;
+  width: 340px;
+  max-height: 400px;
+}
+
+#element-gifs-popover .mx_EmojiPicker_body {
+  overflow-y: auto;
+  max-height: 340px;
+}
+
+/* GIF Grid - two column layout with JS distribution */
+.eg-gif-grid {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.eg-gif-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.eg-gif-item {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  display: block;
+}
+
+.eg-gif-item:hover {
+  transform: scale(1.03);
+}
+
+/* API Key Form */
+.eg-api-key-form {
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.eg-api-key-form p {
+  margin: 0 0 8px 0;
+}
+
+.eg-api-key-form input {
+  width: 94%;
+  padding: 8px 12px;
+  border: 1px solid #3c3f44;
+  border-radius: 4px;
+  background: #1a1d23;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.eg-api-key-form input::placeholder {
+  color: #888;
+}
+
+.eg-api-key-form button {
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #0dbd8b;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.eg-api-key-form button:hover {
+  background: #0aa77a;
+}
+
+/* Footer */
+.eg-footer {
+  text-align: center;
+  padding: 12px 8px;
+  color: #737d8c;
+  font-size: 12px;
+}
+
+.eg-footer a {
+  color: #0dbd8b;
+  text-decoration: none;
+}
+
+.eg-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Header with title and gear icon */
+.eg-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px 8px;
+}
+
+.eg-header-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.eg-header-btn {
+  background: none;
+  border: none;
+  color: #737d8c;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.eg-header-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Settings screen */
+.eg-settings {
+  padding: 16px;
+  color: #fff;
+}
+
+.eg-settings-section {
+  margin-bottom: 20px;
+}
+
+.eg-settings-section:last-child {
+  margin-bottom: 0;
+}
+
+.eg-settings-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.eg-settings-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: #0dbd8b;
+  flex-shrink: 0;
+}
+
+.eg-settings-label span {
+  line-height: 1.4;
+}
+
+.eg-settings-hint {
+  margin: 8px 0 0 28px;
+  font-size: 12px;
+  color: #737d8c;
+}
+
+.eg-settings-title {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #737d8c;
+}
+
+.eg-settings-value {
+  margin: 0;
+  font-family: monospace;
+  font-size: 14px;
+  color: #fff;
+  background: #1a1d23;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.eg-settings input[type="text"] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #3c3f44;
+  border-radius: 4px;
+  background: #1a1d23;
+  color: #fff;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.eg-settings input[type="text"]::placeholder {
+  color: #888;
+}
+
+.eg-settings button {
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #0dbd8b;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.eg-settings button:hover {
+  background: #0aa77a;
+}
+
