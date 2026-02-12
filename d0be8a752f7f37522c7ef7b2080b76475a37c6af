@@ -1,0 +1,23 @@
+wxt.config.ts
+  7f76c3c94d46d4a6 16-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "d0be8a752f7f37522c7ef7b2080b76475a37c6af",
+  "prompts": {
+    "7f76c3c94d46d4a6": {
+      "agent_id": {
+        "tool": "auggie",
+        "id": "03cf5037-b37b-4b3c-ae9e-c0b14639e606",
+        "model": "Claude Opus 4.5"
+      },
+      "human_author": "Robin Heidenis <robin.heidenis@gmail.com>",
+      "messages": [],
+      "total_additions": 10,
+      "total_deletions": 1,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
