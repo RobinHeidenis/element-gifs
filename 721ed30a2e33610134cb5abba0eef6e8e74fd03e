@@ -1,0 +1,39 @@
+utils/klipy.ts
+  7f76c3c94d46d4a6 100-114
+src/vite-env.d.ts
+  7f76c3c94d46d4a6 1-7
+wxt.config.ts
+  7f76c3c94d46d4a6 2-3,5,10,15-17
+utils/styles.css
+  7f76c3c94d46d4a6 107-224
+README.md
+  7f76c3c94d46d4a6 1-3,5-9,11-21,26,28-29,31-44,50,54,57,60-62,64,66-67,69-71
+package.json
+  7f76c3c94d46d4a6 6-11
+tsconfig.json
+  7f76c3c94d46d4a6 1-27
+.gitignore
+  7f76c3c94d46d4a6 3
+entrypoints/content.ts
+  7f76c3c94d46d4a6 1-561
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "721ed30a2e33610134cb5abba0eef6e8e74fd03e",
+  "prompts": {
+    "7f76c3c94d46d4a6": {
+      "agent_id": {
+        "tool": "auggie",
+        "id": "03cf5037-b37b-4b3c-ae9e-c0b14639e606",
+        "model": "Claude Opus 4.5"
+      },
+      "human_author": "Robin Heidenis <r.heidenis@hoorayhr.io>",
+      "messages": [],
+      "total_additions": 2510,
+      "total_deletions": 665,
+      "accepted_lines": 2036,
+      "overriden_lines": 18
+    }
+  }
+}
